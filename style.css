@@ -1,0 +1,104 @@
+@font-face {
+    font-family: humayun;
+    src: url(./Lobster-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: humayun; 
+}
+.watch1 {
+    width: 60%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.smart_watch1{
+    position: relative;
+}
+.tarikh {
+    position: absolute;
+    left: 308px;
+    color: #fff;
+    top: 93px;
+    font-size: 20px;
+}
+.month {
+    position: absolute;
+    left: 339px;
+    color: #fff;
+    top: 92px;
+    font-size: 20px;
+}
+.year {
+    position: absolute;
+    left: 377px;
+    color: #fff;
+    top: 93px;
+    font-size: 20px;
+} 
+span.charger i {
+    position: absolute;
+    top: 95px;
+    left: 247px;
+    font-size: 26px;
+    color: green;
+}
+.smart_watch1 img {
+    width: 350px;
+    height: auto;
+}
+.b_h {
+    position: absolute;
+    top: 117px;
+    left: 230px;
+    font-size: 63px;
+    font-weight: 700;
+    color: #e4e543;
+}
+.b_m {
+    position: absolute;
+    top: 186px;
+    left: 240px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #03864c;
+}
+.b_s {
+    position: absolute;
+    top: 173px;
+    left: 339px;
+    color: rebeccapurple;
+    font-size: 75px;
+}
+
+span.love_con i {
+    position: absolute;
+    top: 147px;
+    left: 368px;
+    font-size: 41px;
+    color: red;
+}
+.ampm {
+    position: absolute;
+    top: 187px;
+    left: 302px;
+    color: #00f700;
+    font-size: 23px;
+}
+.day {
+    position: absolute;
+    bottom: 71px;
+    left: 302px;
+    height: 50px;
+    width: 50px;
+    background: green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
